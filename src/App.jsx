@@ -37,7 +37,7 @@ function App() {
     <main className="App">
      
     <form className="form" onSubmit={handleCoresSubmit}>
-      <h3> Adicione uma nova cor a sua paleta </h3>
+      <h3> Adicione uma cor a sua paleta </h3>
       <div className="form_input">
         
         <div className="input">
@@ -81,7 +81,7 @@ function App() {
 
     <section id="card" className="listaCores">
 
-        <h3> Minha paleta de cores </h3>
+        <h3> Minhas cores </h3>
 
         <div className="listaContent">
           

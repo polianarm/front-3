@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: 'Roboto','sans-serif';
+}
+
 .App {
   margin: 80px 100px;
   display: flex;
@@ -6,7 +12,7 @@
 }
 
 .form {
-  background-color: #202222c0;
+  background-color:  #303031;;
   border-radius: 4px;
   padding: 20px;
   display: flex;
@@ -17,11 +23,12 @@
 
 h3 {
   color: #FFF;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
+  text-align: center;
+  padding: 20px;
 }
 
 .form_input {
@@ -50,7 +57,6 @@ h3 {
 
 .input label {
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .form_button {
@@ -63,12 +69,15 @@ h3 {
   opacity: 0.8;
   border: none;
   padding: 6px 50px;
+  margin: 4px 20px;
   border-radius: 4px;
   color: #fff;
-  background-color: #257f0fbf;
+  background-color: #23b768 ;
 }
 
 .form button:hover {
+  animation-name: animation-explorer-hover;
+  transform: scale(1.01);
   opacity: 1;
 }
 /* Lista de Cores */
